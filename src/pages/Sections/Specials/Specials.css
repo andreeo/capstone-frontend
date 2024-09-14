@@ -1,7 +1,7 @@
 .specials {
   height: 100%;
-  padding: 2.5rem 0;
-  max-width: 65rem;
+  padding: 9rem 0;
+  max-width: 60rem;
   margin: 0 auto;
 }
 
@@ -12,6 +12,10 @@
   grid-template: "info image";
   grid-template-columns: 85fr 15fr;
   margin-bottom: 2rem;
+  color: #000000;
+}
+.header-container button {
+  color: inherit;
 }
 
 .header-list {
@@ -27,8 +31,7 @@
 @media screen and (max-width: 767px) {
   .specials {
     height: 100%;
-    padding: 2.5rem 0;
-    max-width: 65rem;
+    max-width: 60rem;
     margin: 0 auto;
   }
 

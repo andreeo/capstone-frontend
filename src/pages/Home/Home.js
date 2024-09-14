@@ -1,7 +1,6 @@
 import React from "react";
 import Hero from "../Sections/Hero/Hero";
 import Specials from "../Sections/Specials/Specials";
-import Testimonials from "../Sections/Testimonials/Testimonials";
 import About from "../Sections/About/About";
 
 const Home = () => {
@@ -9,7 +8,7 @@ const Home = () => {
     <>
       <Hero />
       <Specials />
-      <Testimonials />
+      <div style={{ width: '100%', height: '10vh', backgroundColor: '#495e57' }} ></div>
       <About />
     </>
   );

@@ -28,7 +28,7 @@ const Topbar = () => {
   return (
     <header className="topbar">
       <div className="logo">
-        <img src={Logo} alt="logo" height={50} onClick={onClickImage} />
+        <img src={Logo} alt="logo" height={40} onClick={onClickImage} />
       </div>
       <nav className={`nav ${isMenuOpen ? "open" : ""}`}>
         <ul className={`menu-list ${isMenuOpen ? "open" : ""}`}>

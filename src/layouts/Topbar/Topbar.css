@@ -28,6 +28,7 @@ ul {
 ul li {
   margin-left: 1rem;
   color: inherit;
+  padding: 0.2rem;
 }
 
 ul li a {
@@ -39,6 +40,20 @@ ul li a {
 }
 .menu-toggle {
   display: none;
+}
+
+ul li:first-child {
+  background-color: #495e57;
+  border-radius: 9px;
+}
+
+ul > li:hover {
+  font-weight: bold;
+}
+
+ul li:first-child a {
+  color: white;
+  margin: 0 4px;
 }
 
 @media screen and (max-width: 767px) {

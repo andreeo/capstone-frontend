@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="footer-container">
         <img className="footer-logo" src={Logo} alt="logo-footer"></img>
         <div className="footer-site-map">
-          <p className="footer-title"> SITEMAP</p>
+          <p className="footer-title"> SECTIONS</p>
           <Link className="footer-item" to="/">Home</Link>
           <Link className="footer-item" to="/about">About</Link>
           <Link className="footer-item" to="/menu">Menu</Link>
@@ -19,9 +19,9 @@ const Footer = () => {
         </div>
         <div className="footer-contact">
           <p className="footer-title"> CONTACT</p>
-          <p className="footer-item"> 123 Citrus Lane</p>
-          <p className="footer-item"> 123-456-7890</p>
-          <p className="footer-item"> little.lemon@lemon.com</p>
+          <p className="footer-item"> 394 California St, San Francisco, CA 94104</p>
+          <p className="footer-item"> 123-456-789</p>
+          <p className="footer-item">little@lemon.com</p>
         </div>
         <div className="footer-social">
           <p className="footer-title"> SOCIAL MEDIA LINKS</p>

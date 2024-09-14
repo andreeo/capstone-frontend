@@ -1,7 +1,7 @@
 import React from "react";
 import "./Hero.css";
 import Button from "../../../components/Button/Button";
-import Image from "../../../assets/restaurantchef.jpg";
+import Image from "../../../assets/restauranfood.jpg";
 import { useNavigate } from "react-router-dom";
 import pages from "../../../utils/pages";
 
@@ -18,10 +18,7 @@ const Hero = () => {
           <h1 className="title">Little Lemon</h1>
           <h2 className="subtitle">Chicago</h2>
           <p>
-            Nestled in the heart of bustling Chicago, Little Lemon is where
-            modern flair meets cozy nostalgia. Our diverse, artisanal menu,
-            featuring delectable bruschettas, succulent burgers, and refreshing
-            Greek salads, is a testament to our belief that food is an art.
+           We are a family owned restaurant that has been serving the Chicago area for over 20 years. We offer a variety of dishes that are sure to please your taste buds. 
           </p>
           <Button title={"Reserve a table"} onClick={onClickReserve} />
         </div>
@@ -30,7 +27,6 @@ const Hero = () => {
           className="image"
           src={Image}
           alt="Restarurant food"
-          height={200}
           width={200}
         />
       </div>

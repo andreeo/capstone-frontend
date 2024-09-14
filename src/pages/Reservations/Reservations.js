@@ -60,7 +60,7 @@ const Reservations = () => {
             navigate(pages.get("home").path);
           }}
           title="Reservation Completed!"
-          description="Thank you for choosing Little Lemon! Your reservation has been successfully made. You will receive a confirmation email with the details of your reservation. We are excited to see you soon!"
+          description='Your reservation has been successfully made. You can view your reservation details in the "My Reservations" section.'
         />
       )}
     </div>

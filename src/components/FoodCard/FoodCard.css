@@ -1,12 +1,22 @@
+
+.header-list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  column-gap: 2%;
+  row-gap: 4rem;
+}
+
 .food-card {
   background: #edefee;
   border-radius: 16px;
   height: 100%;
   min-height: 27rem;
-  width: 18rem;
+  width: 16rem;
   overflow: hidden;
   display: flex;
   flex-direction: column;
+  margin-bottom: 1rem;
 }
 
 .food-card-image {
@@ -25,6 +35,8 @@
   font-weight: 400;
   margin: 0;
   color: #495E57;
+  width: 100%;
+  height: 27vh;
 }
 
 .food-card-price {
@@ -41,15 +53,17 @@
   flex-grow: 1;
 }
 
-.food-card-body-header {
-  flex-grow: 1;
-}
 
 .food-card-body-title-header {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
   margin-bottom: 1rem;
+}
+
+.food-card-title, .food-card-price {
+  font-size: 1rem;
+  text-wrap: nowrap;
 }
 
 .food-card-delivery {
@@ -59,12 +73,21 @@
   margin-top: 1rem;
 }
 
-.food-card-delivery-title {
+.food-card-delivery-button {
   font-size: 16px;
   font-weight: 600;
   margin: 0 0.5rem 0 0 ;
-  color: black;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  background-color: #f4ce14;
+  background: #f4ce14;
 }
+
+.food-card-delivery-button img {
+  padding: 0 0.5rem;
+}
+
 @media screen and (max-width: 767px) {
   .food-card {
     background: #edefee;

@@ -1,5 +1,5 @@
 .reservation {
-  height: calc(100vh - 96px - 266px);
+  height: 75vh;
   width: 100vw;
   max-width: 65rem;
   margin: 0 auto;

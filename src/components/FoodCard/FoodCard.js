@@ -16,10 +16,10 @@ const FoodCard = ({ title, description, image, price }) => {
           </div>
           <p className="food-card-description">{description}</p>
         </div>
-
         <div className="food-card-delivery">
-          <p className="food-card-delivery-title">Order a delivery</p>
+          <button className="food-card-delivery-button">Order a delivery
           <img src={delivery} alt="uber eats"></img>
+          </button>
         </div>
       </div>
     </div>

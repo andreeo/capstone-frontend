@@ -7,13 +7,13 @@
 .footer-container {
   display: grid;
   padding: 2rem 0;
-  max-width: 65rem;
+  max-width: 60rem;
   margin: 0 auto;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   height: 100%;
   width: 100%;
   grid-template-areas: "icon sitemap contact social";
-  grid-column-gap: 1.5rem;
+  grid-column-gap: 1rem;
 }
 
 .footer-logo {
@@ -27,6 +27,7 @@
   font-weight: 600;
   margin-bottom: 1rem;
   margin: 0 0 1rem 0;
+  width: 100%;
 }
 .footer-site-map {
   grid-area: sitemap;
@@ -49,17 +50,7 @@
 }
 
 .footer-item:hover {
-  animation-name: colorChange;
-  animation-duration: 1s;
-}
-
-@keyframes colorChange {
-  0% {
-    color: white;
-  }
-  100% {
-    color: #f4ce14;
-  }
+  font-weight: bold;
 }
 
 @media screen and (max-width: 767px) {
@@ -117,16 +108,6 @@
   }
 
   .footer-item:hover {
-    animation-name: colorChange;
-    animation-duration: 1s;
-  }
-
-  @keyframes colorChange {
-    0% {
-      color: white;
-    }
-    100% {
-      color: #f4ce14;
-    }
+    font-weight: bold;
   }
 }
